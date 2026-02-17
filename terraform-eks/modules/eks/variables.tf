@@ -24,7 +24,7 @@ variable "node_instance_types" {
 }
 variable "desired_size" {
   type = number
-  default = 2
+  default = 1
 }
 variable "min_size" {
   type = number
